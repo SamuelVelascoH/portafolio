@@ -1,0 +1,180 @@
+
+body {
+  font-family: "Work Sans", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.7;
+  color: #9c9c9c;
+  background: #fff;
+  height: 100%;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 17px;
+    line-height: 1.5;
+  }
+}
+
+
+::-webkit-selection {
+  color: #fff;
+  background: #52d3aa;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #52d3aa;
+}
+
+::selection {
+  color: #fff;
+  background: #52d3aa;
+}
+
+
+#footer-style {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  background: #000000;
+  font-size: 18px;
+  font-family:  monospace;
+}
+
+
+#footer-style p {
+  line-height: 1.5;
+}
+#footer-style h3 {
+  color: #fff;
+  font-size: 20px;
+}
+.a-github{
+  color: #58ecff;
+}
+.span-mi-nombre{
+  color: rgb(255, 0, 144);
+}
+#footer-style a:hover {
+  color: #52d3aa;
+}
+
+
+#footer-style .sam-copyright small {
+  display: block;
+}
+
+
+.sam-table-cell {
+  height: 670px;
+}
+
+
+.sam-hero h1 {
+  color: #fff;
+  font-size: 70px;
+  margin-bottom: 10px;
+}
+
+.sam-hero{
+  height: 100vh;
+}
+
+.sam-table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.titulo{
+  font-size: 8rem;
+  font-weight: 700;
+}
+ .parrafo{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  color: rgb(0, 255, 102);
+ }
+ .span-encriptar{
+  color: rgb(255, 0, 144);
+ }
+
+ .boton-encriptar, .boton-desencriptar {
+  color: white;
+  font-size: 1.5rem;
+  width: 100%;
+  max-width: 25rem;
+  margin: 20px 0 20px 0;
+  padding: 10px 4px;
+  background: black;
+  box-shadow: 0 8px 32px #1f5c875e;
+  backdrop-filter: blur(10px);
+  border-radius: 40px;
+  justify-content: center;
+  font-weight: 700;
+  gap: 1rem;
+}
+.boton-encriptar{
+  border: 3px solid aqua;
+}
+.boton-desencriptar{
+  border: 3px solid aqua;
+}
+
+.boton-encriptar:hover, .boton-desencriptar:hover {
+  border: 3px solid rgb(0, 255, 102);
+}
+
+.caja{
+  width: 100%;
+  color: #d7d703;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: left;
+  font-size: 1.9rem;
+  font-weight: 400;
+  padding: 10px;
+  background: rgb(11 0 37);
+  box-shadow: 0 8px 32px #4b4c815e;
+  border: 1px solid rgba(255,255,255,.18);
+}
+
+.caja-area{
+  color: rgb(0, 255, 102);
+}
+.span-title{
+  color: #58ecff;
+  filter: drop-shadow(0 0 12px #58ecff);
+}
+
+.inputs{
+  margin-top: 100px;
+}
+.copy, .clena-all, .paste{
+  font-size: 1.7rem;
+  float: left;
+  font-family: 'Courier New', Courier, monospace;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+.copy:hover, .paste:hover{
+  text-shadow: 0 0 5px #ccc;
+  color: aqua;
+}
+.clena-all{
+  float: right;
+  color: #42445d;
+  
+}
+#btn-paste{
+  visibility: hidden;
+}
+Swal.fire({
+  title: '¡Hola!',
+  text: 'Este es un mensaje de alerta con estilo',
+  icon: 'success',
+  confirmButtonColor: '#4caf50',
+});
