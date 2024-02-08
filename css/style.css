@@ -16,6 +16,17 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+  /* Estilos específicos para móviles */
+  .container {
+      width: 100%;
+  }
+  .imagen {
+      display: block;
+      margin: 0 auto;
+  }
+}
+
 
 ::-webkit-selection {
   color: #fff;
